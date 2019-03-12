@@ -9,6 +9,6 @@ Uniform-Cost Search,
 A* Search
 
 In operations/euler_cycle/Hierholzer.java:
--The Hierholzer algorithm to determine the Euler cycle of a graph
+Hierholzer algorithm to determine the Euler cycle of a graph
 
 (Winter 2018)
