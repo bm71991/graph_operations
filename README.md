@@ -3,9 +3,9 @@ The results of these searches will display the cost from start to end by calcula
 the Euclidean straight-line distance between every point on the path. 
 
 In operations/searches/Searches.java:
--Breadth First Search
--Pre-order Depth First Search
--Uniform-Cost Search
+-Breadth First Search,
+-Pre-order Depth First Search,
+-Uniform-Cost Search,
 -A* Search
 
 In operations/euler_cycle/Hierholzer.java:
