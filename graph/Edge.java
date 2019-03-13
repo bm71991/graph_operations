@@ -8,7 +8,7 @@ Records the destination of the edge,
 the weight (which is the Euclidean straight-line
 distance between the two nodes) and contains 
 the static method which calculates the 
-Eucidean straight-line distance.
+Euclidean straight-line distance.
 ***************************************/
 
 public class Edge
