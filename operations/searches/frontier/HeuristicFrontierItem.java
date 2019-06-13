@@ -19,9 +19,9 @@ public class HeuristicFrontierItem extends FrontierItem
 	private double estSolutionCost; // f(n) = g(n) + h(n)
 
 	public HeuristicFrontierItem(String name,
-											Node previousNode,
-											double costToReach,
-											double estCostToGoal)
+				     Node previousNode,
+				     double costToReach,
+				     double estCostToGoal)
 	{
 		super(name, previousNode);
 		this.costToReach = costToReach;
