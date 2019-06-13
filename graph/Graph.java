@@ -82,16 +82,6 @@ public class Graph
 
 		firstNode.decrementDegree();
 		secondNode.decrementDegree();
-
-		// System.out.println(node1 + " edges");
-		// for (Edge edge : firstNode.getEdges())
-		// 	System.out.println(edge.getDest().getName());
-
-  //   System.out.println();
-
-  //   System.out.println(node2 + " edges");
-		// for (Edge edge : secondNode.getEdges())
-		// 	System.out.println(edge.getDest().getName());
 	}
 
 	public Node getNode(String nodeName)
@@ -112,7 +102,6 @@ public class Graph
 		{
 			if ((aNode.getDegree() % 2) != 0)
 			{
-				// System.out.println("Node " + aNode.getName() + " has degree " + aNode.getDegree());
 				allNodesAreEven = false;
 				return allNodesAreEven;
 			}
