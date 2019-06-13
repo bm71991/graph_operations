@@ -67,7 +67,7 @@ public class Graph
 
 	/************************************************************
 	Removes an undirected edge incident on the two nodes passed as
-  arguments. Internally, it removes directed edge (node1, node2) 
+        arguments. Internally, it removes directed edge (node1, node2) 
 	from the first node's edge list and removes the directed edge
 	(node2, node1) from the second node's edge list. Decrements 
 	the degree of both nodes by 1.
